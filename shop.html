@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Shop · Arcen</title>
+<meta name="description" content="Every Arcen piece in one place: lounge chairs, dining chairs, stools, tables and sofas, each built to order.">
+<meta name="theme-color" content="#556b2f">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shop · Arcen">
+<meta property="og:description" content="Every Arcen piece in one place: lounge chairs, dining chairs, stools, tables and sofas, each built to order.">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500&family=Poppins:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="nav__bar"></div>
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Arcen home"><img src="assets/logo.png" alt="Arcen" width="2172" height="724"></a>
+    <div class="nav__right">
+    <nav class="nav__links" id="links">
+      <a href="index.html">Home</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="arcen-chair.html">Products</a>
+      <a href="story.html">Our Story</a>
+      <a class="pill" href="signup.html">Sign Up</a>
+    </nav>
+      <button class="cart-btn" id="cartBtn" type="button" aria-label="Open cart" aria-expanded="false"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" aria-hidden="true"><path d="M4 7h16l-1.4 11.2a2 2 0 0 1-2 1.8H7.4a2 2 0 0 1-2-1.8L4 7Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8.5 7V5.8a3.5 3.5 0 1 1 7 0V7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><span class="cart-count" id="cartCount" hidden>0</span></button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="phead wrap">
+  <p class="eyebrow rv">The collection</p>
+  <div class="phead__row">
+    <h1 class="display rv" style="--i:1">Thirteen pieces, made to be lived with</h1>
+  </div>
+  <p class="intro rv" style="--i:2">Every chair is built to order in our workshop, in solid hardwood and natural fibres. Lead time is six to eight weeks, and each piece carries a ten-year structural guarantee.</p>
+  <div class="filters rv" id="filters" style="--i:3" role="group" aria-label="Filter by category">
+    <button class="chip" data-cat="all" aria-pressed="true">Everything</button>
+    <button class="chip" data-cat="new" aria-pressed="false">New arrivals</button>
+    <button class="chip" data-cat="best" aria-pressed="false">Best sellers</button>
+    <button class="chip" data-cat="lounge" aria-pressed="false">Lounge</button>
+    <button class="chip" data-cat="dining" aria-pressed="false">Dining</button>
+    <button class="chip" data-cat="stools" aria-pressed="false">Stools &amp; tables</button>
+    <button class="chip" data-cat="sofas" aria-pressed="false">Sofas</button>
+  </div>
+  <p class="count" id="count" aria-live="polite">13 pieces</p>
+  <div class="shop-grid" id="shopGrid">
+      <article class="prod rv" data-cat="lounge" data-slug="arcen-chair" data-best="1" style="--i:0">
+        <a class="card tilt" tabindex="-1" href="arcen-chair.html" aria-label="The Arcen Chair, $2,450">
+          <span class="prod__tag">Signature</span><div class="img"><img src="assets/hero-4.png" alt="The Arcen Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="arcen-chair.html">The Arcen Chair</a></h2><span class="prod__price">$2,450</span></div>
+          <p class="prod__cat">Lounge chair · walnut</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="cloud-chair" data-best="1" style="--i:1">
+        <a class="card tilt" tabindex="-1" href="cloud-chair.html" aria-label="The Cloud Chair, $3,180">
+          <div class="img"><img src="assets/feat-2.png" alt="The Cloud Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="cloud-chair.html">The Cloud Chair</a></h2><span class="prod__price">$3,180</span></div>
+          <p class="prod__cat">Lounge chair · bouclé</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="arc-chair" data-best="1" style="--i:2">
+        <a class="card tilt" tabindex="-1" href="arc-chair.html" aria-label="The Arc Chair, $1,980">
+          <div class="img"><img src="assets/feat-3.png" alt="The Arc Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="arc-chair.html">The Arc Chair</a></h2><span class="prod__price">$1,980</span></div>
+          <p class="prod__cat">Lounge chair · oak</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="muse-chair" style="--i:0">
+        <a class="card tilt" tabindex="-1" href="muse-chair.html" aria-label="The Muse Chair, $2,240">
+          <div class="img"><img src="assets/feat-4.png" alt="The Muse Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="muse-chair.html">The Muse Chair</a></h2><span class="prod__price">$2,240</span></div>
+          <p class="prod__cat">Lounge chair · wool</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="wave-lounger" data-new="1" style="--i:1">
+        <a class="card tilt" tabindex="-1" href="wave-lounger.html" aria-label="The Wave Lounger, $2,890">
+          <span class="prod__tag">New</span><div class="img"><img src="assets/hero-2.png" alt="The Wave Lounger" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="wave-lounger.html">The Wave Lounger</a></h2><span class="prod__price">$2,890</span></div>
+          <p class="prod__cat">Lounge chair · bentwood</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="halo-chair" style="--i:2">
+        <a class="card tilt" tabindex="-1" href="halo-chair.html" aria-label="The Halo Chair, $2,060">
+          <div class="img"><img src="assets/trend-chair.png" alt="The Halo Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="halo-chair.html">The Halo Chair</a></h2><span class="prod__price">$2,060</span></div>
+          <p class="prod__cat">Lounge chair · bouclé</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="lounge" data-slug="teak-lounger" style="--i:0">
+        <a class="card tilt" tabindex="-1" href="teak-lounger.html" aria-label="The Teak Lounger, $1,180">
+          <div class="img"><img src="assets/mat-4.png" alt="The Teak Lounger" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="teak-lounger.html">The Teak Lounger</a></h2><span class="prod__price">$1,180</span></div>
+          <p class="prod__cat">Lounge chair · teak</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="dining" data-slug="vela-chair" style="--i:1">
+        <a class="card tilt" tabindex="-1" href="vela-chair.html" aria-label="The Vela Chair, $1,340">
+          <div class="img"><img src="assets/hero-1.png" alt="The Vela Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="vela-chair.html">The Vela Chair</a></h2><span class="prod__price">$1,340</span></div>
+          <p class="prod__cat">Dining chair · rosewood</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="dining" data-slug="fern-chair" style="--i:2">
+        <a class="card tilt" tabindex="-1" href="fern-chair.html" aria-label="The Fern Chair, $1,460">
+          <div class="img"><img src="assets/hero-3.png" alt="The Fern Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="fern-chair.html">The Fern Chair</a></h2><span class="prod__price">$1,460</span></div>
+          <p class="prod__cat">Dining chair · ash</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="dining" data-slug="aster-chair" data-new="1" style="--i:0">
+        <a class="card tilt" tabindex="-1" href="aster-chair.html" aria-label="The Aster Chair, $1,720">
+          <span class="prod__tag">New</span><div class="img"><img src="assets/footer-img.png" alt="The Aster Chair" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="aster-chair.html">The Aster Chair</a></h2><span class="prod__price">$1,720</span></div>
+          <p class="prod__cat">Dining chair · brass</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="stools" data-slug="japanese-footstool" data-best="1" style="--i:1">
+        <a class="card tilt" tabindex="-1" href="japanese-footstool.html" aria-label="Japanese Footstool, $780">
+          <div class="img"><img src="assets/feat-1.png" alt="Japanese Footstool" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="japanese-footstool.html">Japanese Footstool</a></h2><span class="prod__price">$780</span></div>
+          <p class="prod__cat">Footstool · ash</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="stools" data-slug="block-table" style="--i:2">
+        <a class="card tilt" tabindex="-1" href="block-table.html" aria-label="The Block Table, $540">
+          <div class="img"><img src="assets/mat-1.png" alt="The Block Table" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="block-table.html">The Block Table</a></h2><span class="prod__price">$540</span></div>
+          <p class="prod__cat">Side table · pine</p>
+        </div>
+      </article>
+      <article class="prod rv" data-cat="sofas" data-slug="lisbon-sofa" style="--i:0">
+        <a class="card tilt" tabindex="-1" href="lisbon-sofa.html" aria-label="The Lisbon Sofa, $4,620">
+          <div class="img"><img src="assets/sofa.png" alt="The Lisbon Sofa" loading="lazy"></div>
+          <span class="prod__view">View piece</span>
+        </a>
+        <div>
+          <div class="prod__meta"><h2 class="prod__name"><a href="lisbon-sofa.html">The Lisbon Sofa</a></h2><span class="prod__price">$4,620</span></div>
+          <p class="prod__cat">Three seater · velvet</p>
+        </div>
+      </article>
+  </div>
+  <p class="empty" id="empty" hidden>Nothing in this category yet.</p>
+</section>
+
+<section class="trends wrap" style="padding-top:var(--sec)">
+  <p class="lead scrub-text">Not sure where to start? Begin with the piece you will sit in every day.</p>
+  <div class="center rv" style="margin-top:var(--head)"><a class="btn" href="arcen-chair.html"><span>See The Arcen Chair</span></a></div>
+</section>
+</main>
+
+<footer class="footer wrap">
+  <div class="footer__box rv">
+    <div class="footer__brand">
+      <a class="logo" href="index.html" aria-label="Arcen home"><img src="assets/logo.png" alt="Arcen" width="2172" height="724"></a>
+      <p>Furniture designed for beautiful living</p>
+    </div>
+    <div class="footer__img"><img src="assets/footer-img.png" alt="A velvet armchair with a botanical print and brass legs" width="500" height="500"></div>
+    <div class="footer__right">
+    <div class="footer__links">
+      <div class="c1"><h3>Shop</h3><ul><li><a href="shop.html">All Chairs</a></li><li><a href="shop.html?filter=new">New Arrivals</a></li><li><a href="shop.html?filter=best">Best Sellers</a></li><li><a href="shop.html#filters">Collections</a></li></ul></div>
+      <div class="c2"><h3>About</h3><ul><li><a href="story.html">Our Story</a></li><li><a href="story.html#story-craft">Craftsmanship</a></li><li><a href="story.html#story-materials">Materials</a></li><li><a href="story.html#story-reviews">Reviews</a></li></ul></div>
+      <div class="c3"><h3>Support</h3><ul><li><a href="support.html#sup-contact">Contact</a></li><li><a href="support.html#sup-shipping">Shipping &amp; Returns</a></li><li><a href="support.html#sup-care">Care Guide</a></li><li><a href="support.html#sup-faq">FAQ</a></li></ul></div>
+      <div class="c4"><h3>Follow</h3><ul><li><a href="support.html#sup-contact">Instagram</a></li><li><a href="support.html#sup-contact">Pinterest</a></li><li><a href="support.html#sup-contact">Facebook</a></li></ul></div>
+    </div>
+    <p class="footer__copy">© 2026 Arcen. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__veil" id="drawerVeil"></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <header class="drawer__head">
+      <h2 class="display" id="drawerTitle">Your cart</h2>
+      <button class="drawer__close" id="drawerClose" type="button" aria-label="Close cart">&times;</button>
+    </header>
+    <div class="drawer__body" id="drawerBody"></div>
+    <footer class="drawer__foot" id="drawerFoot" hidden>
+      <div class="drawer__row"><span>Subtotal</span><span id="cartTotal">$0</span></div>
+      <p class="drawer__note">Delivery and placement included. Made to order, 6&ndash;8 weeks.</p>
+      <button class="btn" type="button" id="checkout"><span>Checkout</span></button>
+    </footer>
+  </aside>
+</div>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
